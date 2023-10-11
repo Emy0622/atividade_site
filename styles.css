@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    font-family: 'K2D', sans-serif;
+}
+.container{
+    padding: 50px 20%;
+    text-align: center;
+}
+
+.container .titulo {
+    font-size: 35px;
+    padding-bottom: 22px;
+}
+
+.container #pesquisa{
+    background-color: #E3E3E3;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 10px 300px;
+    text-align: center;
+    border: none;
+}
+
+.container .container-imagens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+
+.container .container-imagens .imagens{
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #D9D9D9;
+    padding: 40px 20px;
+}
+.container .container-imagens .imagens img{
+width: 250px;
+height: 150px;
+object-fit: cover;
+margin-bottom: 30px;
+border-radius: 10px;
+}
