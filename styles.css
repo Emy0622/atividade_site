@@ -1,15 +1,17 @@
 
-@import url('https://fonts.googleapis.com/css2?family=K2D:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-decoration:none;
 }
 
 body{
     background-color: white;
     font-family: 'K2D', sans-serif;
+
 }
 .container{
     padding: 50px 20%;
@@ -19,6 +21,8 @@ body{
 .container .titulo {
     font-size: 35px;
     padding-bottom: 22px;
+
+    
 }
 
 .container #pesquisa{
@@ -28,6 +32,7 @@ body{
     padding: 10px 300px;
     text-align: center;
     border: none;
+    
 }
 
 .container .container-imagens{
