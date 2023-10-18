@@ -43,7 +43,10 @@ body {
     border-radius: 10px;
     cursor: pointer;
     background-color: #D9D9D9;
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    align-items: center;
 }
 
 .container .container-imagens .imagens img {
