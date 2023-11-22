@@ -24,12 +24,16 @@ body {
 
 .container #pesquisa {
     background-color: #E3E3E3;
+    width: fit-content;
+    padding: 10px 5px;
     border-radius: 50px;
     font-size: 16px;
-    padding: 10px 300px;
     text-align: center;
     border: none;
 }
+
+
+/* arrumar o width */
 
 .container .container-imagens {
     display: grid;
@@ -69,6 +73,17 @@ body {
     width: 100%;
 }
 
-.container #search-box {
+.container #pesquisa {
     width: 90%;
+}
+
+@media (max-width: 450px) {
+    .container .container-imagens {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 25px 20px;
+    }
+    .container .container-imagens .imagens {
+        width: 100%;
+    }
 }
