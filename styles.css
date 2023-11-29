@@ -25,11 +25,33 @@ body {
 .container #pesquisa {
     background-color: #E3E3E3;
     width: fit-content;
-    padding: 10px 5px;
+    padding: 10px 50px;
     border-radius: 50px;
     font-size: 16px;
     text-align: center;
     border: none;
+}
+
+.container #botao-pesquisa {
+    padding: 2px 10px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.container #botao-mostrar-mais {
+    padding: 2px 10px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 10px;
 }
 
 
@@ -71,10 +93,6 @@ body {
 
 .container .container-imagens .imagens {
     width: 100%;
-}
-
-.container #pesquisa {
-    width: 90%;
 }
 
 @media (max-width: 450px) {
